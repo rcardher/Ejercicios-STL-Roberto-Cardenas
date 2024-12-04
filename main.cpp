@@ -4,6 +4,7 @@
 #include <iostream>
 #include "Matematicas.h"
 #include "Geometria.h"
+#include "Geometria2.h"
 
 int main() {
     // Ejercicio 1
@@ -16,5 +17,12 @@ int main() {
     std::cout << "Área de un círculo (radio 3): "
               << Geometria::calcularAreaCirculo(3) << std::endl;
 
+
+    // Ejercicio 3
+    Geometria2::Circulo circulo(3.0);
+    std::cout << "Área del círculo: " << circulo.calcularArea() << std::endl;
+    std::cout << "Perímetro del círculo: " << circulo.calcularPerimetro() << std::endl;
+
     return 0;
 }
+
