@@ -5,6 +5,7 @@
 #include "Matematicas.h"
 #include "Geometria.h"
 #include "Geometria2.h"
+#include "Ciencia.h"
 
 int main() {
     // Ejercicio 1
@@ -22,6 +23,11 @@ int main() {
     Geometria2::Circulo circulo(3.0);
     std::cout << "Área del círculo: " << circulo.calcularArea() << std::endl;
     std::cout << "Perímetro del círculo: " << circulo.calcularPerimetro() << std::endl;
+
+    // Ejercicio 4
+    double masa = 2.0; // en kilogramos
+    double energia = Ciencia::Fisica::calcularEnergia(masa);
+    std::cout << "Energía (E=mc^2) para masa " << masa << " kg: " << energia << " julios" << std::endl;
 
     return 0;
 }
