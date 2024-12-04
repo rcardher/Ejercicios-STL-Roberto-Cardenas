@@ -6,6 +6,7 @@
 #include "Geometria.h"
 #include "Geometria2.h"
 #include "Ciencia.h"
+#include "Contenedores.h"
 
 int main() {
     // Ejercicio 1
@@ -28,6 +29,11 @@ int main() {
     double masa = 2.0; // en kilogramos
     double energia = Ciencia::Fisica::calcularEnergia(masa);
     std::cout << "Energía (E=mc^2) para masa " << masa << " kg: " << energia << " julios" << std::endl;
+
+    // Ejercicio 5: STL
+    operarVector();
+    operarMap();
+    operarSet();
 
     return 0;
 }

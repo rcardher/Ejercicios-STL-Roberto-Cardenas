@@ -8,6 +8,7 @@ include_directories("Ejercicio 1")
 include_directories("Ejercicio 2")
 include_directories("Ejercicio 3")
 include_directories("Ejercicio 4")
+include_directories("Ejercicio 5")
 
 add_executable(programa
         main.cpp
@@ -16,4 +17,6 @@ add_executable(programa
         "Ejercicio 2/circulo.cpp"
         "ejercicio 3/Geometria2.cpp"
         "ejercicio 4/Ciencia.cpp"
+        "ejercicio 5/Contenedores.h"
+        "ejercicio 5/Contenedores.cpp"
 )
