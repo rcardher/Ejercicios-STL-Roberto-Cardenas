@@ -3,11 +3,12 @@
 //
 
 #ifndef GEOMETRIA_H
-#define GEOMETRIA_H
+#define GEOMETRIA_H // Definimos GEOMETRIA_H para evitar múltiples inclusiones de este archivo
 
-namespace Geometria {
-    double calcularAreaTriangulo(double base, double altura);
-    double calcularAreaCirculo(double radio);
+namespace Geometria { // Declaramos el espacio de nombres "Geometria"
+    double calcularAreaTriangulo(double base, double altura); // Declaración de la función para calcular el área de un triángulo
+    double calcularAreaCirculo(double radio); // Declaración de la función para calcular el área de un círculo
 }
 
 #endif
+

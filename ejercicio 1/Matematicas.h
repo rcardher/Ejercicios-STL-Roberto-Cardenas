@@ -3,11 +3,11 @@
 //
 
 #ifndef MATEMATICAS_H
-#define MATEMATICAS_H
+#define MATEMATICAS_H // Definimos MATEMATICAS_H para evitar incluir este archivo más de una vez
 
-namespace Matematicas {
-    int suma(int a, int b);
-    int resta(int a, int b);
+namespace Matematicas { // Declaramos el espacio de nombres "Matematicas"
+    int suma(int a, int b); // Declaración de la función suma
+    int resta(int a, int b); // Declaración de la función resta
 }
 
 #endif

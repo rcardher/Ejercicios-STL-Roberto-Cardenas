@@ -3,17 +3,19 @@
 //
 
 #ifndef CIENCIA_H
-#define CIENCIA_H
+#define CIENCIA_H // Definimos CIENCIA_H para evitar múltiples inclusiones de este archivo
 
-namespace Ciencia {
-    namespace Fisica {
-        const double VELOCIDAD_DE_LA_LUZ = 299792458.0; // en metros por segundo
+namespace Ciencia { // Declaramos el espacio de nombres "Ciencia"
+    namespace Fisica { // Subespacio de nombres "Fisica", dentro de "Ciencia"
 
-        double calcularEnergia(double masa);
+        const double VELOCIDAD_DE_LA_LUZ = 299792458.0; // Definimos la constante de la velocidad de la luz en metros por segundo
+
+        double calcularEnergia(double masa); // Declaración de la función para calcular la energía de un objeto según su masa
     }
 }
 
 #endif // CIENCIA_H
+
 
 
 
